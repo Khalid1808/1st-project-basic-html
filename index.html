@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>project</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .para-with-border{
+            color: blueviolet;
+            font-size: 20px;
+            border: 2px solid blue;
+            margin: 5px;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -25,8 +35,9 @@
 
         </nav>
     </header>
+    
         <img width="250" height="100" src="https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw" alt="banner_img" class="banner-img1 top-img">
-        <h1 class="banner-head-text">headline 1</h1>
+        <h1 class="banner-head-text">Headline 1</h1>
         <h2>Healine 2</h2>
         <h3>Healine 3</h3>
         <h4>Healine 4</h4>
@@ -107,37 +118,57 @@
             <form type="submit" method="POST" action="thankU.html">
                 
                 <label>Enter Your Name</label>
-                <input type="text" name="name" class="name" id="fname" placeholder="enter your name" readonly></input>
+                <input type="text" name="name" class="name" id="fname" placeholder="enter your name" value="khalid" readonly></input>
 
                 <label>Enter Your Email Id</label>
                 <input type="email" name="email" class="email" id="femail" placeholder="enter your email"></input>
 
                 <label>Enter Your Phn No.</label>
                 <input type="number" name="phone" class="phone" id="phone" placeholder="enter your phone no." ></input>      
+
+                <select name="cars" id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                  </select>
+    
+                <select name="subjects" id="subjects">
+                    <option value="FE">FE</option>
+                    <option value="FS">FS</option>
+                    <option value="DS">DS</option>
+                </select>
+
+                <input type="submit" value="click">
             </form>
         </section>
 
         <section class="section6">
-              
-            <select name="cars" id="cars">
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="mercedes">Mercedes</option>
-                <option value="audi">Audi</option>
-              </select>
 
-            <select name="subjects" id="subjects">
-                <option value="FE">FE</option>
-                <option value="FS">FS</option>
-                <option value="DS">DS</option>
-            </select>
+            <input type="checkbox" name="C" id="C" value="C">
+            <label>C</label>
+            <input type="checkbox" name="java" id="java" value="java">
+            <label>java</label>
+            <input type="checkbox" name="python" id="python" value="python">
+            <label>python</label>
+            <input type="checkbox" name="dataS" id="dataS" value="dataS">
+            <label>dataS</label>
 
         </section>
+        
 
         <section class="section7">
 
+            <input type="radio" name="gender" id="male" value="male">
+            <label>male</label><br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label>female</label><br>
+            <input type="radio" name="gender" id="not-specified" value="not-specified">
+            <label>not-specified</label><br>
+            
         </section>
 
-       
+
+     
 </body>
 </html>

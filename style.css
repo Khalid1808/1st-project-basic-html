@@ -1,0 +1,40 @@
+body{
+    background-color: burlywood;
+}
+h1{
+    color: aqua;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: brown;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    color: yellow;
+}
+h4{
+    color: violet;
+}
+h5{
+    color: crimson;
+}
+h6{
+    color: black;
+}
+ul{
+    color: blue;
+}
+ol{
+    color: crimson;
+}
+p{
+    color: var(aqua);
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
